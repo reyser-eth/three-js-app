@@ -9,7 +9,7 @@ import './App.css';
 
 // New Component to load and display the Tokyo model
 function TokyoScene() {
-  const { scene } = useGLTF('/tokyo.glb');
+  const { scene } = useGLTF('https://reyser-eth.github.io/three-js-app/tokyo.glb');
   const modelRef = useRef();
 
   // <--- NEW: Leva controls for model position and scale ---
